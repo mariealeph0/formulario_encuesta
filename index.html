@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>  
+
+<body background="./images/3monstruos.jpg">  
+    <H1  id="title">Hola! BIENVENIDO A MiLuGaR</H1>
+    <H3>la página de video-juegos...</H3>
+    <H2>¡¡Solo Para Niños!!</H2>
+    <p id="description">Para poder acceder a todos los juegos que tenemos listos para ti, debemos conocerte; así que por favor dejanos tus datos a continuación </p>
+
+    <header >
+    <div><h1>Mi Perfil: </h1></div>
+
+    <form id="survey-form">
+    <ol id="orden" class="lista">
+        <li><label for="name-label">Nombre *:</label><input type="text" id="name" id="name-label" placeholder="nombre completo"   required></li>
+        <li><label for="age-label">Edad (entre 4 y 12 años) *:</label><input type="number" id="age" id="age-label" placeholder="¿cúantos años tienes?" min="4" max="12" required></li>
+        <li><label for="email-label">Dirección e-mail *:</label><input type="email" id="email" id="email-label" placeholder="correo electronico" required> </li>
+        <li><label for="number-label">Número de contacto:</label><input type="number" id="number" id="number-label" placeholder="número de tus padres" > </li>
+        <li>¿Qué opinan tus padres de que juegues videojuegos?
+            <select id="dropdown">
+            <option>Están de acuerdo </option> 
+            <option>No lo saben</option> 
+            <option>No están de acuerdo</option> 
+        </select>
+        </li>
+        </ol>
+     </form>
+</header>
+<div id="options">
+<h2>¿Qué te gustaría jugar?</h2>
+ <ul id="desorden" class="lista">
+    <li>Cazar dragones <input type="radio" name="radio-bottom"></li>
+    <li>Carreras<input type="radio" name="radio-bottom"></li>
+    <li>Luchar con osos<input type="radio"name="radio-bottom"></li>
+    <li>Elegir ropa para cachorritos<input type="radio" name="radio-bottom"></li>
+    </ul>
+</div>
+<div id="check">
+    <h2>¿Qué harás cuando no estes jugando video juegos?</h2>
+     <ul>
+        Practicar un deporte<input type="checkbox" value="check-box">
+        Leer<input type="checkbox" value="check-box">
+        Pasar tiempo con mi familia<input type="checkbox" value="check-box">
+        Dormir la siesta<input type="checkbox" value="check-box">
+        </ul>
+    </div>
+</body>
+
+<footer>
+    <div>
+       <br> ¿Te gustó el formulario? Danos tu opinión.</br>
+        <textarea placeholder=":D"></textarea>
+        <li>Terminaste? <input type='submit'></li>
+         <h3>Diviertete!!</h3></footer>
+    Los campos marcados con * son obligatorios
+    </div>
+</footer>
+</html>

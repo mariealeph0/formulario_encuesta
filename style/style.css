@@ -1,0 +1,31 @@
+*{
+    margin: 20px;
+    padding:0;
+}
+body{
+    background-color:cadetblue;
+    color: rgb(8, 0, 63);
+}
+header{
+    background:rgb(255, 166, 0);
+    width: 100%;
+    height: 80vh;
+    color:rgb(7, 7, 7);
+}
+#desorden li{
+    background-color: rgb(7, 212, 133);
+    color: rgb(19, 0, 87);
+}
+#orden li{
+    background-color: #dbff77;
+    color: rgb(37, 11, 41);
+}
+#options{
+    background-color: rgb(74, 165, 255);
+    width: 100%;
+    height: 60vh;
+}
+#check{
+    background-color: rgb(255, 0, 149);
+    width: 100%;
+}
